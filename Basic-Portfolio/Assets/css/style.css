@@ -1,10 +1,49 @@
+/* class top-header to be able to have a box like the image */
+
+.top-header{
+
+}
+
+/* header is for styling my name */
 header {
     font-family: 'Georgia', 'Times New Roman', Times, serif;   
+    background-color: #ffffff;
+    border-color: #cccccc; 
 }
+
+/* need to float right? */
+#About{
+}
+/* need it on the right side of about */
+#Portfolio{
+}
+
+/* need it on the right side of portfolio */
+#Contact{
+}
+
+/* the text itself needs to be inside a box */
+.wrapper{
+    clear: both;
+    background-color: #ffffff;
+    border-color: #dddddd;
+}
+
+/* content needs to fit the dimensions of the page */
+#content{
+
+}
+
+/* class relative is my image which needs to be on the right side of the page */
+.relative{
+
+}
+
+/* footer needs to look cleaner? try referencing the <div> activity */
 
 footer{
     Border-top: 8px solid #4aaaa5;
-    background-color: grey;
+    background-color: #666666;
     text-align: center;
     font-size: 10px;
     padding: 20px;
