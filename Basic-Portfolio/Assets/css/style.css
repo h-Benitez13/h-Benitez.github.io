@@ -27,24 +27,40 @@ position: relative;
 padding: 20px;
 }
 
+nav {
+    float: right;
+}
 
-/* need to float right? */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+li {
+    display: inline;
+}
+
+
+
+/* need to float right?
 #About{
     float: right;
     margin-right: 5px;
 }
 /* need it on the right side of about */
-#Portfolio{
+/* #Portfolio{
     float: right;
     margin-right: 5px;
-}
+} */
 
 /* need it on the right side of portfolio */
-#Contact{
+/* #Contact{
     float: right;
     margin-right: 5px;
 
-}
+} */ 
 
 /* the text itself needs to be inside a box */
 .wrapper{
@@ -68,10 +84,10 @@ padding: 20px;
 }
 
 h1{
+    text-align: center;
     position: relative;
     color: #4aaaa5;
     font-family: 'Georgia', 'Times New Roman', Times, serif;   
-    margin-top: 100px;
     margin-left: 20px;
 }
 

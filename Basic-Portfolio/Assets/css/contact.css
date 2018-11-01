@@ -3,6 +3,21 @@
 
 }
 
+nav {
+    float: right;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+li {
+    display: inline;
+}
+
 footer{
     Border-top: 8px solid #4aaaa5;
     background-color: #666666;
