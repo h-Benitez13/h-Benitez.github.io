@@ -1,25 +1,47 @@
 /* class top-header to be able to have a box like the image */
 
-.top-header{
-
+.top-header{   
+     font-family: 'Georgia', 'Times New Roman', Times, serif;   
+    background-color: #ffffff;
+    border-color: #cccccc; 
+    overflow: auto;
 }
 
 /* header is for styling my name */
 header {
-    font-family: 'Georgia', 'Times New Roman', Times, serif;   
-    background-color: #ffffff;
-    border-color: #cccccc; 
+    background: #4aaaa5;
+    width: 300px;
+    height: 100px;
+    text-align: center;
+    top: 0;
+    left: 0;
+    color: white;
+    font-size: 30px;
+    margin-left: 10%;
+
 }
+.options{
+position: relative;
+padding: 20px;
+}
+
 
 /* need to float right? */
 #About{
+    float: right;
+    margin-right: 5px;
 }
 /* need it on the right side of about */
 #Portfolio{
+    float: right;
+    margin-right: 5px;
 }
 
 /* need it on the right side of portfolio */
 #Contact{
+    float: right;
+    margin-right: 5px;
+
 }
 
 /* the text itself needs to be inside a box */
@@ -27,7 +49,6 @@ header {
     clear: both;
     background-color: #ffffff;
     border-color: #dddddd;
-    background: url(Downloads/qbkis/qpkis.png)
 }
 
 /* content needs to fit the dimensions of the page */
